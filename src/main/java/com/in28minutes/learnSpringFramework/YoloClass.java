@@ -1,5 +1,9 @@
 package com.in28minutes.learnSpringFramework;
 
 public class YoloClass {
-    private final int x=1;
+    private int x = 1;
+
+    public void YoloClass(int a) {
+        this.x = a;
+    }
 }
