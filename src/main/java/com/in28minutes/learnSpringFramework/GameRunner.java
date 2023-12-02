@@ -8,7 +8,7 @@ public class GameRunner {
         System.out.print("Running game: " + game);
         game.up();
         game.down();
-        game.left();
+        
         game.right();
     }
     public GameRunner(GamingConsole game){
